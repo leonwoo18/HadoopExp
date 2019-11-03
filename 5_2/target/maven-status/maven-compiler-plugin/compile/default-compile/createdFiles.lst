@@ -1,0 +1,6 @@
+part\MyEmployeePartitioner.class
+com\mystudy\App.class
+part\Employee.class
+part\PartEmployeeReducer.class
+part\PartEmployeeMain.class
+part\PartEmployeeMapper.class
