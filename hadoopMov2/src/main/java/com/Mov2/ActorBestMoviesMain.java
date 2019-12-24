@@ -28,7 +28,8 @@ public class ActorBestMoviesMain {
 
                 for (String ac : actors) {
                     //把电影数据写入csv文件。csv 表头为 ID,电影名称,评分,演员
-                    fw.append(mId + "," + m.getTitle() + "," + ac + "," + m.getStar() + "\n");
+                    fw.append(mId + "#" + m.getTitle() + "#" + ac + "#" + m.getStar() + "\n");
+                    fw.flush()
                 }
             }
         }
